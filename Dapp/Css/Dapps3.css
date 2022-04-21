@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.hero{
+box-sizing: border-box;
+margin-left: 8%;
+margin-right: 8%;
+}
+
+#logo{
+    margin-top: 25px;
+    margin-bottom: 5%;
+}
+
+h1{
+    font-size: 75px;
+    font-weight: lighter;
+}
+
+span{
+    color: rgb(238, 36, 86);
+}
+
+.banner-img{
+    width: 550px;
+    height: 420px;
+    float: right;
+    /*
+    margin-right: 10%;
+    */
+}
+
+.mytext{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 1.5em;
+    color: #333333;
+}
+
+button{
+    width: 10%;
+    height: 53px;
+    background: rgb(238, 36, 86);
+    border: 1px solid rgb(238, 36, 86);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+a{
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+button:hover{
+    transform: ease-out;
+}
+
+.coins{
+    width: 580px;
+    height: 590px;
+    float: right;
+    /*
+    margin-right: 5%;
+     */
+}
+
+.main-content{
+    margin-top: 10%;
+}
+
+p{
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+
+h3{
+    margin: 20px;
+}
+
+h2{
+    color: rgb(241, 22, 40);
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+ul li{
+    list-style-type: none;
+}
+
+
+h4{
+    margin-top: 13%;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+
+h5{
+    margin: 15px;
+    text-align: center;
+    color: rgb(241, 22, 40);
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.main{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        overflow-wrap: break-word;
+        box-sizing: border-box;
+       
+}
+
+.main div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.main div p{
+    padding-bottom: 35px;
+    margin: 12px;
+  }
+  
+.space{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer-img{
+    margin-top: 15%;
+    width: 600px;
+    height: 300px;
+}
+
+.startup{ 
+    float: right;
+}
+
+.startup div{
+   
+    float: right;
+    overflow-wrap: break-word;
+}
+
+.startup h2{
+    margin-top: 5%;
+}
